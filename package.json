@@ -1,0 +1,19 @@
+{
+  "name": "chictool-server",
+  "version": "1.0.0",
+  "description": "CHICTool MySQL inventory API.",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "test": "node --test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^18.0.2",
+    "fastify": "^5.12.5",
+    "mysql2": "^3.24.4"
+  }
+}
